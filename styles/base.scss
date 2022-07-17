@@ -1,0 +1,21 @@
+// BASE STYLES
+
+// COLORS
+$primaryOrange: #f4a261;
+$secondaryOrange: #e76f51;
+$aqua: #2a9d8f;
+$navy: #264653;
+
+// MIXINS
+@mixin flex-column {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+@mixin flex-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
